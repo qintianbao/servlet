@@ -20,7 +20,8 @@ public class MyServlet extends HttpServlet{
 		String global = servlet.getInitParameter("globalname");
 		System.out.println("web容器初始化值："+global);
 		
-		String string = new String();
+	
+		
 	}
 	@Override
 	public void destroy() {
